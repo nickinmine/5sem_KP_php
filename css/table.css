@@ -1,0 +1,21 @@
+table {
+    text-align: left;
+    flex-direction: row;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+table > tr {
+    border: inherit;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid grey;
+    font-size: 14px;
+}
+
+@media (max-width: 80em) {
+    th, td {
+        font-size: 14px;
+    }
+}

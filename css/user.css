@@ -1,0 +1,72 @@
+.forms-collection {
+    margin: 50px 10% 50px 10%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3em;
+    background-color: #dddddd;
+    border-radius: 10px;
+}
+
+.forms-element {
+    text-align: left;
+}
+
+.main-container > .unique-info,
+.main-container > .basic-info {
+    margin: 20px 100px 20px 100px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+p > .basic-info {
+    margin: inherit;
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: left;
+}
+
+button {
+    cursor:pointer;
+    margin-top:5px;
+    margin-bottom: 20px;
+}
+
+.message{
+    display: block;
+    color: red;
+    text-align: center;
+    margin-left: 0;
+    font-size: 16px;
+    max-width: fit-content;
+    margin-top: 5px;
+}
+
+input {
+    display: block;
+    margin-top: 5px;
+}
+
+@media (max-width: 1019px) {
+    div.forms-collection {
+        flex-direction: column;
+        align-items: stretch;
+        row-gap: 0.5em;
+        width: 200px;
+        margin: 50px 25% 50px 0;
+    }
+
+    .forms-collection > * {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav-menu {
+        margin: 50px 25% 50px 25%;
+    }
+}
