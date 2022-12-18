@@ -3,7 +3,8 @@ class Lib {
     private static string $HOSTNAME, $USERNAME, $PASSWORD, $DATABASE;
 
     function __construct() {
-        self::$HOSTNAME = 'localhost';
+        //self::$HOSTNAME = 'localhost';
+        self::$HOSTNAME = 'mysql';
         self::$USERNAME = 'root';
         self::$PASSWORD = 'root';
         self::$DATABASE = 'univerbase';
